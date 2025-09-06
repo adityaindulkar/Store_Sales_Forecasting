@@ -1,0 +1,6 @@
+model.joblib
+model.tar.gz
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+*.model
