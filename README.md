@@ -3,6 +3,10 @@
 ## Project Overview
 Developed and deployed a ML sales forecasting pipeline that predicts monthly revenue by product category and region. Engineered temporal features (3-month rolling mean, YoY growth, holiday/weekend indicators, lag features) and log transformation to handle skewness, rolling mean was the primary indicator. Optimized multiple ML models, implementing a robust ensemble method that averaged their predictions to enhance accuracy. Deployed the end-to-end solution on AWS cloud infrastructure; utilized S3, SageMaker, ECR and Docker for storage, model development, training, visualization and deployment.
 
+## Tech Stack: 
+### Python (Numpy, Pandas, Scikit-Learn, Matplotlib)     
+### AWS (Sagemaker, S3, Dockerfile, ECR, Jupyter Notebook)
+
 ## Key Features
 **Advanced Feature Engineering**: Time-based features, holiday/weekend indicators, cyclical encoding, rolling statistics, lag features, and target encoding              
 **Ensemble Modeling**: Combines Gradient Boosting, XGBoost, and LightGBM with residual correction                 
